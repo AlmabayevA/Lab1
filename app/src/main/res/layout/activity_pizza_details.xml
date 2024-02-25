@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:src="@drawable/cheese_pizza"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="384dp"
+        android:layout_height="384dp"/>
+
+    <TextView
+        android:id="@+id/text_aboba"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="48sp"
+        android:layout_marginStart="8dp"
+        android:text="Cheese Pizza"/>
+
+    <TextView
+        android:id="@+id/pizza_size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginStart="8dp"
+        android:text="30cm, Традиционное тесто, 420г"/>
+
+
+
+    <TextView
+        android:id="@+id/pizza_description"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Pizza with 4 cheeses"
+        android:layout_marginStart="8dp"
+        android:textSize="32sp"/>
+
+
+</LinearLayout>
+
